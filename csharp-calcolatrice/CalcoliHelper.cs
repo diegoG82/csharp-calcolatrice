@@ -14,7 +14,6 @@
             return a + b;
         }
 
-
         //Differenza:
         public static int Sottrazione(int a, int b)
         {
@@ -26,6 +25,17 @@
             return a - b;
         }
 
+        //Moltiplicazione
+
+        public static int Moltiplicazione(int a, int b)
+        {
+            return a * b;
+        }
+
+        public static double Moltiplicazione(double a, double b)
+        {
+            return a * b;
+        }
 
     }
 

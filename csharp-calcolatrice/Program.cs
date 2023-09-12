@@ -8,6 +8,8 @@ while (true)
     Console.WriteLine("2 - Somma di numeri double ");
     Console.WriteLine("3 - Sottrazione di numeri interi");
     Console.WriteLine("4 - Sottrazione di numeri double");
+    Console.WriteLine("5 - Moltiplicazione di numeri interi");
+    Console.WriteLine("6 - Moltiplicazione di numeri double");
     Console.WriteLine("Esci dal programma");
 
     string scelta = Console.ReadLine();
@@ -61,6 +63,29 @@ while (true)
         Console.WriteLine($"La sottrazione di {a} e {b} e' : {risultato}");
         break;
     }
+
+    if (scelta == "5")
+    {
+        int a = 6;
+        int b = 5;
+
+        int risultato = CalcoliHelper.Moltiplicazione(a, b);
+
+        Console.WriteLine($"La moltiplicazione di {a} e {b} e' : {risultato}");
+        break;
+    }
+
+    if (scelta == "6")
+    {
+        double a = 5.5;
+        double b = 6.5;
+
+        double risultato = CalcoliHelper.Moltiplicazione(a, b);
+
+        Console.WriteLine($"La moltiplicazione di {a} e {b} e' : {risultato}");
+        break;
+    }
+
 
     if (scelta == "Esci")
     {
