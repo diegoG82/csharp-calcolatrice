@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace csharp_calcolatrice
+﻿namespace csharp_calcolatrice
 {
 
     public static class CalcoliHelper
@@ -19,6 +13,20 @@ namespace csharp_calcolatrice
         {
             return a + b;
         }
+
+
+        //Differenza:
+        public static int Sottrazione(int a, int b)
+        {
+            return a - b;
+        }
+
+        public static double Sottrazione(double a, double b)
+        {
+            return a - b;
+        }
+
+
     }
 
 }
