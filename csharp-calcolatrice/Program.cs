@@ -97,13 +97,13 @@ while (true)
 
     if (scelta == "11")
     {
-        int risultato = CalcoliHelper.ValoreMinimo(a, b);
+        int risultato = CalcoliHelper.ValoreMassimo(a, b);
         Console.WriteLine($"Il minimo massimo tra {a} e {b} e' : {risultato}");
     }
 
     if (scelta == "12")
     {
-        double risultato = CalcoliHelper.ValoreMinimo(c, d);
+        double risultato = CalcoliHelper.ValoreMassimo(c, d);
         Console.WriteLine($"il valore massimo tra {c} e {d} e' : {risultato}");
     }
 
