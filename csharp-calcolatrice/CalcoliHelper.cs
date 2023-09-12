@@ -37,6 +37,17 @@
             return a * b;
         }
 
+        //Valore assoluto numero intero
+        public static int ValoreAssoluto(int a)
+        {
+            return Math.Abs(a);
+        }
+
+        //Valore Assoluto numero double
+        public static double ValoreAssoluto(double a)
+        {
+            return Math.Abs(a);
+        }
     }
 
 }
