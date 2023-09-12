@@ -18,6 +18,7 @@ int ne = 0;
 while (true)
 {
     Console.WriteLine("Quale operazione vuoi fare?");
+    Console.WriteLine();
     Console.WriteLine("1 - Somma di numeri interi");
     Console.WriteLine("2 - Somma di numeri double ");
     Console.WriteLine("3 - Sottrazione di numeri interi");
