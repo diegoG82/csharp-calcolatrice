@@ -10,8 +10,8 @@ double d = 6.5;
 
 //BASE ED ESPONENTE PER BONUS
 
-int nb = 3;
-int ne = 2;
+int nb = 328474;
+int ne = 0;
 
 //CICLO WHILE PER SCEGLIERE L'OPERAZIONE DA EFFETTUARE
 
@@ -31,7 +31,7 @@ while (true)
     Console.WriteLine("11 - Valore massimo tra due  numeri interi");
     Console.WriteLine("12 - Valore massimo tra due numeri double");
     Console.WriteLine("13 - Elevo a potenza");
-    Console.WriteLine("Esci dal programma");
+    Console.WriteLine("14 - Esci dal programma");
 
     string scelta = Console.ReadLine();
 
@@ -119,7 +119,7 @@ while (true)
         Console.WriteLine($"il valore di {nb} elevato a {ne} e' : {risultato}");
     }
 
-    if (scelta == "Esci")
+    if (scelta == "14")
     {
         break;
     }
