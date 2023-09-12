@@ -8,6 +8,11 @@ int b = 6;
 double c = 7.5;
 double d = 6.5;
 
+//BASE ED ESPONENTE PER BONUS
+
+int nb = 3;
+int ne = 2;
+
 //CICLO WHILE PER SCEGLIERE L'OPERAZIONE DA EFFETTUARE
 
 while (true)
@@ -25,6 +30,7 @@ while (true)
     Console.WriteLine("10 - Valore minimo tra due numeri double");
     Console.WriteLine("11 - Valore massimo tra due  numeri interi");
     Console.WriteLine("12 - Valore massimo tra due numeri double");
+    Console.WriteLine("13 - Elevo a potenza");
     Console.WriteLine("Esci dal programma");
 
     string scelta = Console.ReadLine();
@@ -107,6 +113,11 @@ while (true)
         Console.WriteLine($"il valore massimo tra {c} e {d} e' : {risultato}");
     }
 
+    if (scelta == "13")
+    {
+        int risultato = CalcoliHelper.ElevoAPotenza(nb, ne);
+        Console.WriteLine($"il valore di {nb} elevato a {ne} e' : {risultato}");
+    }
 
     if (scelta == "Esci")
     {

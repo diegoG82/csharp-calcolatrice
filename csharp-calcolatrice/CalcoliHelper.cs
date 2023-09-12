@@ -92,6 +92,18 @@
             return Math.Max(c, d);
         }
 
+        //BONUS: Elevazione a potenza
+
+        public static int ElevoAPotenza(int nb, int ne)
+        {
+            if (nb == 0 && ne == 0)
+                return 1;
+            else
+            {
+                return (int)Math.Pow(nb, ne);
+            }
+        }
+
     }
 
 }
