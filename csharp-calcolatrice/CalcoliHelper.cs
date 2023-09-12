@@ -15,7 +15,7 @@ namespace csharp_calcolatrice
             return a + b;
         }
 
-        public static double SommaDouble(double a, double b)
+        public static double Somma(double a, double b)
         {
             return a + b;
         }

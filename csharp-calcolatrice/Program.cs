@@ -32,7 +32,7 @@ while (true)
         double a = 5.5;
         double b = 6.5;
 
-        double risultato = CalcoliHelper.SommaDouble(a, b);
+        double risultato = CalcoliHelper.Somma( a, b);
 
         Console.WriteLine($"La somma di {a} e {b} e' : {risultato}");
         break;
