@@ -13,6 +13,12 @@ double d = 6.5;
 int nb = 328474;
 int ne = 0;
 
+
+//Il fatto di dover scrivere lo stesso metodo per tipi di parametro diversi applica nella pratica uno dei principi
+//di programmazione ad oggetti che abbiamo visto...Quale?
+
+//Ereditarieta' e sovraccarico
+
 //CICLO WHILE PER SCEGLIERE L'OPERAZIONE DA EFFETTUARE
 
 while (true)
