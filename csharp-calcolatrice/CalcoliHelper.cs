@@ -104,6 +104,13 @@
             }
         }
 
+        public static T SommaBonus<T>(T a, T b) where T : struct
+        {
+            dynamic da = a;
+            dynamic db = b;
+            return da + db;
+        }
+
     }
 
 }

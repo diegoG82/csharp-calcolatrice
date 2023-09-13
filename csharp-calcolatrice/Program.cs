@@ -32,7 +32,8 @@ while (true)
     Console.WriteLine("11 - Valore massimo tra due  numeri interi");
     Console.WriteLine("12 - Valore massimo tra due numeri double");
     Console.WriteLine("13 - Elevo a potenza");
-    Console.WriteLine("14 - Esci dal programma");
+    Console.WriteLine("14 - BONUS");
+    Console.WriteLine("15 - Esci dal programma");
 
     string scelta = Console.ReadLine();
 
@@ -119,8 +120,23 @@ while (true)
         int risultato = CalcoliHelper.ElevoAPotenza(nb, ne);
         Console.WriteLine($"il valore di {nb} elevato a {ne} e' : {risultato}");
     }
+    //SUPER SUPER BONUS
 
     if (scelta == "14")
+    {
+        //double e = 5.5; 
+        //double f = 6.5;
+        Console.WriteLine("Scrivi 2 numeri:");
+        Console.WriteLine("Scrivimi il primo numero:");
+        double e = double.Parse(Console.ReadLine());
+        Console.WriteLine("Scrivimi il secondo numero:");
+        double f = double.Parse(Console.ReadLine());
+        double risultato = CalcoliHelper.SommaBonus(e, f);
+        Console.WriteLine($"La somma bonus di {e} e {f} e' : {risultato}");
+    }
+
+
+    if (scelta == "15")
     {
         break;
     }
